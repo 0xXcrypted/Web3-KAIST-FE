@@ -1,0 +1,33 @@
+{
+  "name": "web3-kaist-fe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.1.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@types/styled-components": "^5.1.26",
+    "@wagmi/connectors": "^1.0.2",
+    "@wagmi/core": "^1.0.2",
+    "@walletconnect/jsonrpc-types": "^1.0.2",
+    "@walletconnect/jsonrpc-utils": "^1.0.7",
+    "@web3modal/ethereum": "^2.4.1",
+    "@web3modal/react": "^2.4.1",
+    "bignumber.js": "^9.1.1",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^6.0.0-rc.1",
+    "typescript": "5.0.4",
+    "viem": "^0.3.21",
+    "wagmi": "^1.0.2"
+  }
+}
