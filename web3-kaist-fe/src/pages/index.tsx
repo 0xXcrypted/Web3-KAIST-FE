@@ -13,6 +13,7 @@ import { WrappedEtherAbi, WrappedEtherAddress } from "@/lib/WrappedEther";
 const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   width: 100%;
   height: 100%;
   background-color: #000000;
