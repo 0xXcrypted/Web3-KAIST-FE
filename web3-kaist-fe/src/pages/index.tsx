@@ -147,6 +147,27 @@ export default function Home() {
       <PageContainer>
         <Header>
           <Web3Button />
+          <button
+            onClick={() => {
+              window.open(`https://sepoliafaucet.com/`);
+            }}
+          >
+            faucet1
+          </button>
+          <button
+            onClick={() => {
+              window.open(`https://sepolia-faucet.pk910.de/`);
+            }}
+          >
+            faucet2
+          </button>
+          <button
+            onClick={() => {
+              window.open(`https://faucet.sepolia.dev/`);
+            }}
+          >
+            faucet3
+          </button>
         </Header>
 
         <Content>
