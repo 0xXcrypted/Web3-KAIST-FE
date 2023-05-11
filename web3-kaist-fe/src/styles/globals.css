@@ -20,7 +20,8 @@ input[type="number"] {
 
 * {
   font-family: "Comfortaa";
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 html {
