@@ -21,7 +21,6 @@ input[type="number"] {
 * {
   font-family: "Comfortaa";
   overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 html {
